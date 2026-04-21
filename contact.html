@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — The Next Chapter Concierge</title>
+  <meta name="description" content="Contact Lillya Nashanchik at The Next Chapter Concierge. Schedule a free consultation or ask a question — we're here to help guide you through life's next chapter." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header" role="banner">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="The Next Chapter Concierge — Home">
+        <img src="images/logo.png" alt="The Next Chapter Concierge" class="logo-img" />
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="guide.html">Free Guide</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="guide.html" class="nav-cta">Download Free Guide</a>
+      </nav>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Lillya</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="guide.html">Free Guide</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="mobile-cta">
+      <a href="guide.html" class="btn btn-tan">Download the Free Guide</a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-labelledby="contact-hero-heading">
+      <div class="container">
+        <span class="eyebrow">Let's Connect</span>
+        <h1 id="contact-hero-heading">Start the Conversation</h1>
+        <p>
+          No pressure, no obligation — just a quiet, honest conversation about where
+          you are and how we might be able to help.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" aria-labelledby="contact-form-heading">
+      <div class="contact-inner">
+
+        <!-- LEFT: INFO BLOCK -->
+        <div class="contact-info">
+          <span class="eyebrow">Reach Out</span>
+          <h2>We're Here to Listen</h2>
+          <div class="divider divider-left"></div>
+          <p>
+            Whether you're at the very beginning of thinking about a transition,
+            or already in the middle of one — reaching out is the first step.
+            There is no "too early" or "too late" to ask for support.
+          </p>
+          <p>
+            Lillya responds personally to every inquiry, typically within one
+            business day.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon" aria-hidden="true">📞</div>
+              <div class="contact-detail-text">
+                <strong>Phone</strong>
+                <a href="tel:+19175727257">(917) 572-7257</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon" aria-hidden="true">✉</div>
+              <div class="contact-detail-text">
+                <strong>Email</strong>
+                <a href="mailto:Lillya@thenextchapterconcierge.co">Lillya@thenextchapterconcierge.co</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon" aria-hidden="true">🌐</div>
+              <div class="contact-detail-text">
+                <strong>Website</strong>
+                <a href="https://www.thenextchapterconcierge.co" target="_blank" rel="noopener">thenextchapterconcierge.co</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-assurance">
+            <p>You don't need to have it all figured out before reaching out. That's exactly what we're here for.</p>
+            <p>
+              Our initial consultation is always complimentary. We'll talk through where you are,
+              what you're facing, and whether we're a good fit to work together — with no commitment required.
+            </p>
+          </div>
+
+          <div style="margin-top: 2rem;">
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lillya-thenextchapterconcierge/30min'});return false;" class="btn btn-primary btn-lg">
+              Schedule a Free Consultation
+            </a>
+          </div>
+
+          <div style="margin-top:2rem;">
+            <a href="guide.html" class="btn btn-outline-green">
+              Or download the free guide first →
+            </a>
+          </div>
+        </div>
+
+        <!-- RIGHT: FORM -->
+        <div class="contact-form-wrap">
+          <img src="images/shadow.png" alt="" style="width:100%; border-radius:8px; display:block; margin-bottom:1.5rem;" />
+          <h3>Send a Message</h3>
+          <p>Fill out the form below and Lillya will be in touch personally, usually within one business day.</p>
+
+          <form id="contact-form" novalidate>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cf-fname">First Name</label>
+                <input type="text" id="cf-fname" name="first_name" placeholder="First name" required />
+              </div>
+              <div class="form-group">
+                <label for="cf-lname">Last Name</label>
+                <input type="text" id="cf-lname" name="last_name" placeholder="Last name" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-email">Email Address</label>
+              <input type="email" id="cf-email" name="email" placeholder="you@example.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="cf-phone">Phone Number <span style="font-weight:400; text-transform:none; letter-spacing:0;">(optional)</span></label>
+              <input type="tel" id="cf-phone" name="phone" placeholder="(000) 000-0000" />
+            </div>
+
+            <div class="form-group">
+              <label for="cf-help">How Can We Help?</label>
+              <select id="cf-help" name="how_can_we_help" required>
+                <option value="" disabled selected>Select the best description…</option>
+                <option value="transition-planning">I'm exploring transition options</option>
+                <option value="downsizing">I need help with downsizing or decluttering</option>
+                <option value="relocation">I'm planning a relocation</option>
+                <option value="family-coordination">I need help with family coordination</option>
+                <option value="just-starting">I'm just starting to think about this</option>
+                <option value="in-progress">We're already in the middle of a transition</option>
+                <option value="referral">I'm a professional making a referral</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-timeline">What's your general timeline?</label>
+              <select id="cf-timeline" name="timeline">
+                <option value="" disabled selected>Select a timeframe…</option>
+                <option value="asap">As soon as possible — this is urgent</option>
+                <option value="1-3-months">Within 1–3 months</option>
+                <option value="3-6-months">Within 3–6 months</option>
+                <option value="6-12-months">In the next 6–12 months</option>
+                <option value="planning-ahead">Just planning ahead for now</option>
+                <option value="not-sure">Not sure yet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-message">Tell Us a Little More</label>
+              <textarea id="cf-message" name="message" placeholder="Share anything you'd like Lillya to know before your conversation. There are no wrong answers here — just share what's on your mind." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;">
+              Send My Message
+            </button>
+
+            <p class="form-note" style="text-align:center; margin-top:1rem;">
+              Your information is private and will never be shared or sold.
+            </p>
+
+          </form>
+
+          <div id="contact-success" class="form-success">
+            <strong>Thank you for reaching out.</strong> Lillya will be in touch personally,
+            usually within one business day. We look forward to speaking with you.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ STRIP -->
+    <section style="background:var(--cream); padding:80px 24px;" aria-labelledby="faq-heading">
+      <div style="max-width:760px; margin:0 auto;">
+        <div class="section-header" style="margin-bottom:2.5rem;">
+          <span class="eyebrow">Common Questions</span>
+          <h2 id="faq-heading">Before You Reach Out</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:20px;">
+
+          <details style="background:var(--white); border-radius:var(--radius-sm); padding:24px 28px; border:1px solid rgba(196,180,154,0.3);">
+            <summary style="font-family:'Cormorant Garamond',serif; font-size:1.2rem; font-weight:600; cursor:pointer; color:var(--text-dark); list-style:none; display:flex; justify-content:space-between; align-items:center;">
+              How much does it cost to work with you?
+              <span style="color:var(--tan); font-size:1.4rem; font-family:'Lato',sans-serif; line-height:1;">+</span>
+            </summary>
+            <p style="margin-top:1rem; color:var(--text-mid); font-size:0.97rem; line-height:1.75; margin-bottom:0;">
+              Our initial consultation is always complimentary. Ongoing services are tailored to
+              your specific needs and scope of engagement — we'll discuss all of this together
+              before any commitment is made. We believe in transparent, honest conversations
+              about investment and value from the very first conversation.
+            </p>
+          </details>
+
+          <details style="background:var(--white); border-radius:var(--radius-sm); padding:24px 28px; border:1px solid rgba(196,180,154,0.3);">
+            <summary style="font-family:'Cormorant Garamond',serif; font-size:1.2rem; font-weight:600; cursor:pointer; color:var(--text-dark); list-style:none; display:flex; justify-content:space-between; align-items:center;">
+              What area do you serve?
+              <span style="color:var(--tan); font-size:1.4rem; font-family:'Lato',sans-serif; line-height:1;">+</span>
+            </summary>
+            <p style="margin-top:1rem; color:var(--text-mid); font-size:0.97rem; line-height:1.75; margin-bottom:0;">
+              We primarily serve clients in the New York metro area, but work with families
+              nationally on planning, family coordination, and long-distance transition projects.
+              If you're unsure whether we can help with your specific situation, just reach out —
+              we'll always point you in the right direction.
+            </p>
+          </details>
+
+          <details style="background:var(--white); border-radius:var(--radius-sm); padding:24px 28px; border:1px solid rgba(196,180,154,0.3);">
+            <summary style="font-family:'Cormorant Garamond',serif; font-size:1.2rem; font-weight:600; cursor:pointer; color:var(--text-dark); list-style:none; display:flex; justify-content:space-between; align-items:center;">
+              Is it too early to reach out?
+              <span style="color:var(--tan); font-size:1.4rem; font-family:'Lato',sans-serif; line-height:1;">+</span>
+            </summary>
+            <p style="margin-top:1rem; color:var(--text-mid); font-size:0.97rem; line-height:1.75; margin-bottom:0;">
+              Absolutely not. In fact, the families who fare best are almost always the ones
+              who start planning early — before a crisis creates urgency. If you're even beginning
+              to ask questions, that's a perfect time to connect. The earlier we engage, the
+              more options you have.
+            </p>
+          </details>
+
+          <details style="background:var(--white); border-radius:var(--radius-sm); padding:24px 28px; border:1px solid rgba(196,180,154,0.3);">
+            <summary style="font-family:'Cormorant Garamond',serif; font-size:1.2rem; font-weight:600; cursor:pointer; color:var(--text-dark); list-style:none; display:flex; justify-content:space-between; align-items:center;">
+              My parent is resistant to the idea of getting help. Can you still assist?
+              <span style="color:var(--tan); font-size:1.4rem; font-family:'Lato',sans-serif; line-height:1;">+</span>
+            </summary>
+            <p style="margin-top:1rem; color:var(--text-mid); font-size:0.97rem; line-height:1.75; margin-bottom:0;">
+              This is one of the most common situations we encounter, and it's one we're well
+              equipped to navigate. Resistance usually comes from fear — fear of loss of control,
+              fear of change, fear of what this moment means. Our approach is designed to
+              honor those feelings while gently creating space for open conversation.
+              We never push. We guide.
+            </p>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo-main">The Next Chapter Concierge</div>
+          <span class="logo-sub">Senior Transition Specialist</span>
+          <p>Helping individuals and families navigate major life transitions with clarity, dignity, and peace of mind.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Lillya</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="guide.html">Free Guide</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html#transition-planning">Transition Planning</a></li>
+            <li><a href="services.html#downsizing">Downsizing &amp; Decluttering</a></li>
+            <li><a href="services.html#relocation">Relocation Coordination</a></li>
+            <li><a href="services.html#family-coordination">Family Coordination</a></li>
+            <li><a href="services.html#vendor-network">Vendor Network</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Get In Touch</h5>
+          <div class="footer-contact-item">
+            <span class="icon" aria-hidden="true">📞</span>
+            <a href="tel:+19175727257">(917) 572-7257</a>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon" aria-hidden="true">✉</span>
+            <a href="mailto:Lillya@thenextchapterconcierge.co">Lillya@thenextchapterconcierge.co</a>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon" aria-hidden="true">🌐</span>
+            <a href="https://www.thenextchapterconcierge.co">thenextchapterconcierge.co</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 The Next Chapter Concierge. All rights reserved.</p>
+        <p><a href="contact.html">Privacy Policy</a> &nbsp;·&nbsp; Designed with care for families in transition.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
