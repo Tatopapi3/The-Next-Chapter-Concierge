@@ -505,6 +505,19 @@ p:last-child { margin-bottom: 0; }
   text-align: center;
 }
 
+.intro-headshot {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 4px solid var(--tan);
+  margin-bottom: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .intro-inner blockquote {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.5rem;
